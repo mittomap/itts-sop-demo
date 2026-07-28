@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITTs - Ban demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .wrap { width: 100%; max-width: 640px; text-align: center; }
+  h1 { font-size: 30px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+  .sub { font-size: 15px; color: #666; margin-bottom: 40px; font-weight: 400; }
+  .buttons { display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px; }
+  .btn {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 22px 24px;
+    border-radius: 12px;
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
+    background: #ffffff;
+    transition: all 0.15s ease;
+  }
+  .btn:hover { background: #1a1a1a; color: #ffffff; }
+  .note {
+    font-size: 13px;
+    color: #777;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  @media (min-width: 560px) {
+    .buttons { flex-direction: row; }
+    .btn { flex: 1; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>ITTs</h1>
+    <p class="sub">Ban demo - chon cong de vao</p>
+    <div class="buttons">
+      <a class="btn" href="ITTs_WebApp_v5_demo.html">Cong nhan vien</a>
+      <a class="btn" href="ITTs_TrangHocVien_demo.html">Trang hoc vien</a>
+    </div>
+    <p class="note">Du lieu demo - thao tac luu tren trinh duyet cua ban, bam Reset du lieu demo o man cong de ve nguyen ban.</p>
+  </div>
+</body>
+</html>
